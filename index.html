@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Head todo la info que es para el navegador y no se ve, salvo el titulo. -->
+	<meta charset="UTF-8">
+	<title>HoffenMotorHaus</title>
+	<!-- Estilos de Bootstrap que es codigo responsive y visual ya escrito por otro. -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<!-- codigo de colores y estilos escrito por nosotros -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Tipografia openSans -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<!-- esto es para que el navegador se de cuenta cuando estamos en un celuar o tableta-->
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+</head>
+<!-- <body> Todo lo que se ve en la pantalla del usuario -->
+<body>
+<header>
+	<div class="container">
+		<div class="row top">
+			<!-- en esta linea cambiamos nuestro logo. -->
+			<div class="col-md-4"><a href="#home" data-ancla="home" class="off">
+				<img src="images/hoffen.jpg" alt="" class="logo"></a></div>
+			<div class="col-md-3"></div>
+			<div class="col-md-5">
+				<ul class='botonera'>
+					<li><a href="#nosotros" data-ancla="nosotros">Nosotros</a></li>
+					<li><a href="#servicios" data-ancla="servicios">Servicios</a></li>
+					<li><a href="#contacto" data-ancla="contacto">Contacto</a></li>
+
+				</ul>
+
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="principal vertical-centered-text" id="home">
+	<div class="col-md-8 cta"><h1>HÖFFEN MOTOR HAUS</h1> 
+			<h4><strong>Somos una agencia multimarca con mas de 20 años de experiencia</strong></h4>
+			<p>Conoce los vehiculos que tenemos para vos</p>
+<a  href="https://vehiculos.mercadolibre.com.ar/_CustId_15982170_NoIndex_True" target="_blank" class="btn btn-primary orange">MOSTRAR CATALOGO</a>
+
+
+		</div>
+</div>
+
+<div class="nosotros orange" id="nosotros">
+	<div class="container">
+		<h1><strong>Sobre nosotros</strong></h1>
+		<p><strong>Con mas de 20 años de trayectoria en el mercado Argentino, HOFFEN MOTOR HAUS, la exclusiva agencia de autos usados y 0km desembarca en el centro comercial de NORDELTA y con nueva sucursal en SAN FERNANDO.
+Dispuestos a brindar una atención personalizada y diferencial, buscamos que nuestros clientes tengan la comodidad de recibir su nuevo vehículo en su domicilio ( Y EN CUALQUIER PUNTO DEL PAIS)
+Además contamos con servicio de cobertura de seguros, gestoría y amplia gama de accesorios.
+Tomamos autos y motos con la mejor cotización del mercado. Financiamos en cuotas fijas y en pesos.</strong>
+</p>
+	</div>
+</div>
+
+
+<div class="container servicios" id="servicios">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>Que brindamos?</h1>
+		</div>
+	</div>
+	<div class="row images">
+		<div class="col-md-3">
+			<img src="images/002-project-management.png" alt="">
+			<h3>Gestoria Propia</h3>
+			<p>Realizamos toda la documentacion para que tu vehiculo salga transferido</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/001-apretn-de-manos.png" alt="">
+			<h3>Entregas Inmediatas</h3>
+			<p>Retiralo el mismo dia del cierre de operacion</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/003-servicio-de-auto.png" alt="">
+			<h3>Cotizaciones de seguro</h3>
+			<p>Cotizamos el seguro de tu auto al instante</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/004-ahorrar-dinero.png" alt="">
+			<h3>Financiaciones</h3>
+			<p>Damos la posibilidad de financiar tu vehiculo o parte de él a través de creditos prendarios</p>
+		</div>
+	</div>
+	
+</div>
+
+<footer>
+	<div class="container" id="contacto">
+		<div class="row">
+			<div class="col-md-12">
+					<h1><strong>Contactanos</strong></h1><br><br>
+
+			</div>
+		</div>
+		<div class="row social">
+		<div class="col-3"></div>	
+					<div class="col-2">
+						<a href="https://maps.app.goo.gl/bBDm2kvrsuYjL7De6" target="_blank"><img src="images/005-ubicacion.png" alt="">
+							<h2><Strong>Ubicación</h2></Strong></a></div>
+
+					<div class="col-2">
+						<a href="https://wa.me/+5491154026473"  target="_blank"><img src="images/002-whatsapp-1.png" alt="">
+							<h2><Strong>Whatsapp</h2></Strong></a></div>
+
+					<div class="col-2">
+						<a target="_blank" href="https://www.instagram.com/hoffen_motor_haus/" ><img src="images/003-instagram.png" alt="">
+							<h2><Strong>Instagram</h2></Strong></a></div>	
+	</div>
+</footer>
+<!-- Codigo que hace que las acciones de botones y cuestiones responsive funcionen-->
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<script>
+	// A $( document ).ready() block.
+$(document).ready(function() {    
+$('.top a').click(function(e){
+        e.preventDefault();
+        var offset = $($(this).attr('href')).offset().top;
+        $('html, body').animate({scrollTop:offset}, 600);
+        return false;
+    });
+
+});
+	
+</script>
+</body>
+</html>
